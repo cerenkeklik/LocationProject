@@ -52,13 +52,6 @@ namespace Web
                 endpoints.MapControllers();
             });
 
-            app.Use(async (context, next) =>
-            {
-                context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
-                context.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
-                context.Response.Headers.Remove("X-Powered-By");
-                await next.Invoke();
-            });
         }
     }
 }
