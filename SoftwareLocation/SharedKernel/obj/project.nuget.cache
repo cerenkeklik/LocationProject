@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PxJwpQNymzKVKuV8Io83A+rbcHFyJzdBWwMnrLgRUAjTbzgpnRDqQeb/EyePnAJ6TVFs0TwTkq32idctBx0XrA==",
+  "dgSpecHash": "c1YxG1+8gJK3tlcd2iT5J9nsWG0Alx23oREz0COfLQ3w8PAZ+reTLzS91UaRRRHoPaG1Gst5UD3W8Z42tkOsDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
+  "projectFilePath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

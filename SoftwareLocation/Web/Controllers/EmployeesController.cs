@@ -1,4 +1,5 @@
-﻿using Core.Entities;
+﻿using Core.DTOs;
+using Core.Entities;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,28 @@ namespace Web.Controllers
         public Employee GetById(int id)
         {
             var result = _employeeService.GetById(id);
+            return result;
+        }
+
+        [HttpPost("add")]
+        public void Add(Employee employee) {
+            _employeeService.Add(employee);
+        }
+
+        [HttpPost("update")]
+        public void Update(Employee employee) {
+            _employeeService.Update(employee);
+        }
+
+        [HttpPost("delete")]
+        public void Delete(Employee employee)
+        {
+            _employeeService.Update(employee);
+        }
+
+        [HttpGet("getdetails")]
+        public List<EmployeeDetailDto> GetDetails() {
+            var result = _employeeService.GetEmployeeDetails();
             return result;
         }
     }

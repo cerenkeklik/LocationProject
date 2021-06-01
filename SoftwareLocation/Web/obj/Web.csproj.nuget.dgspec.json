@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Web\\Web.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj": {
+    "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +86,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj"
+              "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
+    "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
         "projectName": "SharedKernel",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\SharedKernel\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Web\\Web.csproj": {
+    "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Web\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -208,11 +208,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Core\\Core.csproj"
+              "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj"
               },
-              "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\pc\\Source\\Repos\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

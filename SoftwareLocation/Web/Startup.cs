@@ -31,6 +31,12 @@ namespace Web
             services.AddControllers();
             services.AddSingleton<IEmployeeService, EmployeeManager>();
             services.AddSingleton<IEmployeeDal, EfEmployeeDal>();
+            services.AddSingleton<IDepartmentService, DepartmentManager>();
+            services.AddSingleton<IDepartmentDal, EfDepartmentDal>();
+            services.AddSingleton<IManagerService, ManagerManager>();
+            services.AddSingleton<IManagerDal, EfManagerDal>();
+            services.AddSingleton<IInspectionService, InspectionManager>();
+            services.AddSingleton<IInspectionDal, EfInspectionDal>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +57,6 @@ namespace Web
             {
                 endpoints.MapControllers();
             });
-
         }
     }
 }
