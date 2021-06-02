@@ -48,7 +48,7 @@ namespace Web.Controllers
         [HttpDelete("delete")]
         public void Delete(Employee employee)
         {
-            _employeeService.Update(employee);
+            _employeeService.Delete(employee);
         }
 
         [HttpGet("getdetails")]

@@ -12,3 +12,17 @@ C:\Users\pc\source\repos\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3
 C:\Users\pc\source\repos\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\Users\pc\source\repos\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.dll
 C:\Users\pc\source\repos\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.dll
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\Core.dll
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\SharedKernel.dll
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\Core.pdb
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\bin\Release\netcoreapp3.1\SharedKernel.pdb
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.dll
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.pdb

@@ -13,6 +13,9 @@ namespace Infrastructure
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer(@"Server=tcp:location-software.database.windows.net,1433;Database=LocationDb;User ID=location;Password=Abcd1234;Trusted_Connection=False;Encrypt=True; ");
+
+
+
         }
 
         public DbSet<Department> Departments { get; set; }
