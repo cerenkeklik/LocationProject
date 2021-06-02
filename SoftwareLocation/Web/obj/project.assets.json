@@ -5756,19 +5756,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "C:\\Users\\Berat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Web\\obj\\",
+      "projectPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\Berat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5782,11 +5782,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Core\\Core.csproj"
+            "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj"
             },
-            "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\pc\\source\\repos\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -51,7 +51,7 @@ namespace Web.Controllers
             _inspectionService.Update(inspection);
         }
 
-        [HttpPost("delete")]
+        [HttpDelete("delete")]
         public void Delete(Inspection inspection) {
             _inspectionService.Delete(inspection);        
         }

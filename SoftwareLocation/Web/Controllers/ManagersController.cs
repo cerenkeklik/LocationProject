@@ -44,7 +44,7 @@ namespace Web.Controllers
             _managerService.Update(manager);
         }
 
-        [HttpPost("delete")]
+        [HttpDelete("delete")]
         public void Delete(Manager manager)
         {
             _managerService.Delete(manager);

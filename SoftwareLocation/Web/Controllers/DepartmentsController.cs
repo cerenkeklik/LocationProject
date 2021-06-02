@@ -44,7 +44,7 @@ namespace Web.Controllers
             _departmentService.Update(department);
         }
 
-        [HttpPost("delete")]
+        [HttpDelete("delete")]
         public void Delete(Department department) {
             _departmentService.Delete(department);
         }
