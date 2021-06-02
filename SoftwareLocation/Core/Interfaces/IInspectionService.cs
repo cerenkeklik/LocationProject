@@ -19,5 +19,7 @@ namespace Core.Interfaces
         List<Inspection> GetAll();
 
         List<InspectionDetailDto> GetInspectionDetails();
+
+        bool CheckTheLocation(string parallel, string meridian, int employeeId);
     }
 }

@@ -55,5 +55,12 @@ namespace Web.Controllers
         public void Delete(Inspection inspection) {
             _inspectionService.Delete(inspection);        
         }
+
+        [HttpPost("checklocation")]
+        public bool CheckLocation(string parallel, string meridian, int employeeId) {
+          return _inspectionService.CheckTheLocation(parallel, meridian, employeeId);
+        }
+
+
     }
 }

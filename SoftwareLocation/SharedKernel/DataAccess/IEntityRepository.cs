@@ -14,5 +14,7 @@ namespace SharedKernel.DataAccess
         void Update(T entity);
         void Delete(T entity);
 
+
+
     }
 }
