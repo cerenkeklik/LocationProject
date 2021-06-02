@@ -24,7 +24,8 @@ namespace Infrastructure.EFDal
                                  LastName = e.LastName,
                                  Parallel = i.Parallel,
                                  Meridian = i.Meridian,
-                                 checkIsInLocation = i.CheckIsInLocation
+                                 checkIsInLocation = i.CheckIsInLocation,
+                                  checkTime = i.CheckTime
                                 
                              };
 

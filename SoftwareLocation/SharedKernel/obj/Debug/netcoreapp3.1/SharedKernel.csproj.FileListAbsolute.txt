@@ -16,3 +16,12 @@ C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\ob
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.csproj.CoreCompileInputs.cache
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.pdb
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\bin\Debug\netcoreapp3.1\SharedKernel.deps.json
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\bin\Debug\netcoreapp3.1\SharedKernel.dll
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\bin\Debug\netcoreapp3.1\SharedKernel.pdb
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.csprojAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.dll
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\SharedKernel\obj\Debug\netcoreapp3.1\SharedKernel.pdb

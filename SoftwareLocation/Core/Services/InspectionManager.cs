@@ -28,8 +28,8 @@ namespace Core.Services
 
         public List<Inspection> GetAll()
         {
-            var result = _inspectionDal.GetAll();
-            return result;
+            return _inspectionDal.GetAll();
+
         }
 
         public Inspection GetById(int inspectionId)

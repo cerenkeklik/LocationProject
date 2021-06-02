@@ -11,6 +11,7 @@ namespace Core.DTOs
         public string LastName { get; set; }
         public string Meridian { get; set; }
         public string Parallel { get; set; }
-        public bool checkIsInLocation { get; set; }
+        public string checkIsInLocation { get; set; }
+        public DateTime checkTime { get; set; }
     }
 }

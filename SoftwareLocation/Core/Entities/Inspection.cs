@@ -17,6 +17,7 @@ namespace Core.Entities
 
         public string Parallel { get; set; }
 
-        public Boolean CheckIsInLocation { get; set; }
+        public string CheckIsInLocation { get; set; }
+        public DateTime CheckTime { get; set; }
     }
 }
