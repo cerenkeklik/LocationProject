@@ -39,5 +39,10 @@ namespace Core.Services
         {
             _managerDal.Update(manager);
         }
+
+        public Manager GetByMail(string email)
+        {
+            return _managerDal.Get(u => u.Email == email);
+        }
     }
 }

@@ -16,5 +16,7 @@ namespace Core.Interfaces
 
         List<Manager> GetAll();
 
+        Manager GetByMail(string email);
+
     }
 }

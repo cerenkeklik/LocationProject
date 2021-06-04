@@ -24,7 +24,11 @@ namespace Core.Entities
         public string Address { get; set; }
 
         public DateTime DateOfBirth { get; set; }
+        public byte[] PasswordSalt { get; set; }
+        public byte[] PasswordHash { get; set; }
 
-        
+        public string Phone { get; set; }
+
+
     }
 }

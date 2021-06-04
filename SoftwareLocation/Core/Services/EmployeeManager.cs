@@ -46,6 +46,11 @@ namespace Core.Services
             _employeeDal.Update(employee);
         }
 
+        public Employee GetByMail(string email)
+        {
+            return _employeeDal.Get(u => u.Email== email);
+        }
+
 
     }
 }

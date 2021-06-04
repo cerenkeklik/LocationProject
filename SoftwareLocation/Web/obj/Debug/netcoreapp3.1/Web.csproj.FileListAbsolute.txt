@@ -140,6 +140,7 @@ C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netc
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Web.runtimeconfig.dev.json
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Web.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Web.pdb
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -148,6 +149,7 @@ C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netc
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
