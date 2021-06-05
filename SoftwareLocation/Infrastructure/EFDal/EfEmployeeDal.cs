@@ -11,6 +11,7 @@ namespace Infrastructure.EFDal
 {
     public class EfEmployeeDal : EfEntityRepositoryBase<Employee, AppDBContext>, IEmployeeDal
     {
+      
         public List<EmployeeDetailDto> GetEmployeeDetails()
         {
             using (AppDBContext context = new AppDBContext())

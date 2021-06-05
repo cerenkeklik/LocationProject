@@ -10,5 +10,6 @@ namespace Core.Interfaces
     public interface IEmployeeDal : IEntityRepository<Employee>
     {
         List<EmployeeDetailDto> GetEmployeeDetails();
+
     }
 }

@@ -11,12 +11,14 @@ namespace Core.Services
     {
         IInspectionDal _inspectionDal;
         IDepartmentService _departmentService;
+        IEmployeeService _employeeService;
 
 
-        public InspectionManager(IInspectionDal inspectionDal, IDepartmentService departmentService)
+        public InspectionManager(IInspectionDal inspectionDal, IDepartmentService departmentService, IEmployeeService employeeService)
         {
             _inspectionDal = inspectionDal;
             _departmentService = departmentService;
+            _employeeService = employeeService;
 
         }
 
@@ -28,7 +30,8 @@ namespace Core.Services
         public bool CheckTheLocation(string parallel, string meridian, int employeeId)
         {
             var result = true;
-            var dept = _departmentService.GetById(employeeId);
+            var emp = _employeeService.GetById(employeeId);
+            var dept = _departmentService.GetById(emp.DepartmentID);
             var double_parallel = Convert.ToDouble(parallel);
             var double_meridian = Convert.ToDouble(meridian);
             var target_parallelTop = Convert.ToDouble(dept.ParallelTop);

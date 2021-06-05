@@ -37,6 +37,11 @@ namespace Core.Services
             return result;
         }
 
+        public Department GetByEmployeeId(int departmentId)
+        {
+            var result = _departmentDal.Get(d => d.DepartmentID == departmentId);
+            return result;
+        }
         public void Update(Department department)
         {
             _departmentDal.Update(department);

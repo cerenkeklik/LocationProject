@@ -199,3 +199,5 @@ C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\ne
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\Web.dll
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\Web.pdb
 C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\Web.genruntimeconfig.cache
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pc\Documents\GitHub\LocationProject\SoftwareLocation\Web\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll

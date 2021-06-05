@@ -14,6 +14,7 @@ namespace Core.Interfaces
         void Update(Department department);
 
         Department GetById(int departmentId);
+        Department GetByEmployeeId(int employeeId);
 
         List<Department> GetAll();
     }
