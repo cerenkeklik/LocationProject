@@ -10,5 +10,6 @@ namespace Core.Interfaces
     public interface IExcuseDal:IEntityRepository<Excuse>
     {
         List<ExcuseDetailDto> GetExcuseDetails();
+        ExcuseDetailDto GetExcuseDetailsById(int excuseId);
     }
 }

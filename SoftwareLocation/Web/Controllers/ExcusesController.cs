@@ -60,6 +60,13 @@ namespace Web.Controllers
             return result;
         }
 
+        [HttpGet("getdetailsbyid")]
+        public ExcuseDetailDto GetDetailsById(int id)
+        {
+            var result = _excuseService.GetExcuseDetailsById(id);
+            return result;
+        }
+
     }
 
 }

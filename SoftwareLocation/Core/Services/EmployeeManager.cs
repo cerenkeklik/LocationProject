@@ -51,6 +51,9 @@ namespace Core.Services
             return _employeeDal.Get(u => u.Email== email);
         }
 
-
+        public EmployeeDetailDto GetEmployeeDetailsById(int employeeId)
+        {
+            return _employeeDal.GetEmployeeDetailsById(employeeId);
+        }
     }
 }

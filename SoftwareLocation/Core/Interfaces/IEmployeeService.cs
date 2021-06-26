@@ -20,6 +20,8 @@ namespace Core.Interfaces
 
         List<EmployeeDetailDto> GetEmployeeDetails();
 
+        EmployeeDetailDto GetEmployeeDetailsById(int employeeId);
+
         Employee GetByMail(String email);
 
     }

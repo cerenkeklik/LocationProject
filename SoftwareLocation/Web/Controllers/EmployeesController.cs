@@ -56,5 +56,18 @@ namespace Web.Controllers
             var result = _employeeService.GetEmployeeDetails();
             return result;
         }
+
+        [HttpGet("getdetailsbyid")]
+        public EmployeeDetailDto GetDetailsById(int id)
+        {
+            var result = _employeeService.GetEmployeeDetailsById(id);
+            return result;
+        }
+
+        [HttpGet("getbymail")]
+        public Employee GetByMail(string mail)
+        {
+            return _employeeService.GetByMail(mail);
+        }
     }
 }

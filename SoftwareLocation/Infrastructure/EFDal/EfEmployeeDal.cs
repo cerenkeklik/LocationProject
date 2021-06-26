@@ -32,6 +32,31 @@ namespace Infrastructure.EFDal
 
                 return result.ToList();
             }
+
+        }
+        public EmployeeDetailDto GetEmployeeDetailsById(int employeeId)
+        {
+            using (AppDBContext context = new AppDBContext())
+            {
+                var result = from e in context.Employees
+                             join d in context.Departments
+                             on e.DepartmentID equals d.DepartmentID
+                             where e.EmployeeID==employeeId
+                             select new EmployeeDetailDto 
+                             {
+                                 FirstName = e.FirstName,
+                                 LastName = e.LastName,
+                                 DateOfBirth = e.DateOfBirth,
+                                 Address = e.Address,
+                                 Gender = e.Gender,
+                                 Email = e.Email,
+                                 Department = d.DepartmentName
+                             };
+                return result.Single<EmployeeDetailDto>();
+
+                
+            }
+           
         }
     }
 }

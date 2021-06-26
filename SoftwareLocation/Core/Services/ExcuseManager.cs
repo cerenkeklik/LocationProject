@@ -46,6 +46,11 @@ namespace Core.Services
            return _excuseDal.GetExcuseDetails();
         }
 
+        public ExcuseDetailDto GetExcuseDetailsById(int excuseId)
+        {
+          return  _excuseDal.GetExcuseDetailsById(excuseId);
+        }
+
         public void Update(Excuse excuse)
         {
             _excuseDal.Update(excuse);

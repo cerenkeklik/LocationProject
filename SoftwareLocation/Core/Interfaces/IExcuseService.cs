@@ -19,6 +19,8 @@ namespace Core.Interfaces
 
         List<ExcuseDetailDto> GetExcuseDetails();
 
+        ExcuseDetailDto GetExcuseDetailsById(int excuseId);
+
         List<Excuse> GetAll();
 
     }
