@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="location-group" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Web\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="staffTracking" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Web\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

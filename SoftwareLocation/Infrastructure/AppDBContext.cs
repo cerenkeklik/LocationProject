@@ -12,7 +12,7 @@ namespace Infrastructure
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Server=tcp:location-software.database.windows.net,1433;Database=LocationDb;User ID=location;Password=Abcd1234;Trusted_Connection=False;Encrypt=True; ");
+            optionsBuilder.UseSqlServer(@"Server=tcp:stafftrackingdb.database.windows.net,1433;Database=staffTrackingDb;User ID=staff;Password=Abcd1234;Trusted_Connection=False;Encrypt=True; ");
 
 
 
