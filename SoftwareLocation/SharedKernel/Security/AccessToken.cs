@@ -8,5 +8,6 @@ namespace SharedKernel.Security.JWT
     {
         public string Token { get; set; }
         public DateTime Expiration { get; set; }
+        public int employeeId { get; set; }
     }
 }
