@@ -9,7 +9,7 @@ namespace SharedKernel.Security.JWT
 {
     public interface ITokenHelper<T> where T : class, IEntity
     {
-        AccessToken CreateToken(T user);
+        AccessToken CreateToken(T user,int Id);
        
     }
 }

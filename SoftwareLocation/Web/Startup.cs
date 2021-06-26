@@ -44,6 +44,9 @@ namespace Web
             services.AddSingleton<IManagerDal, EfManagerDal>();
             services.AddSingleton<IInspectionService, InspectionManager>();
             services.AddSingleton<IInspectionDal, EfInspectionDal>();
+            services.AddSingleton<IExcuseService, ExcuseManager>();
+            services.AddSingleton<IExcuseDal, EfExcuseDal>();
+
             services.AddSingleton<IAuthService<Employee, EmployeeRegisterDto>, AuthEmployeeManager>();
             services.AddSingleton<IAuthService<Manager, ManagerRegisterDto>, AuthManagerManager>();
             services.AddSingleton<ITokenHelper<Employee>, JwtHelper<Employee>>();

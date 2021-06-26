@@ -1230,19 +1230,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "C:\\Users\\Berat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Berat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1256,8 +1256,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj"
+            "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\Berat\\Documents\\GitHub\\LocationProject\\SoftwareLocation\\SharedKernel\\SharedKernel.csproj"
             }
           }
         }

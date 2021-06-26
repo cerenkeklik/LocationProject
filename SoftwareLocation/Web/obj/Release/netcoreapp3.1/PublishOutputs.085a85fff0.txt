@@ -5,6 +5,7 @@ C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Web.deps.json
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Web.runtimeconfig.json
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Web.pdb
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -13,6 +14,7 @@ C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Berat\Documents\GitHub\LocationProject\SoftwareLocation\Web\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.dll

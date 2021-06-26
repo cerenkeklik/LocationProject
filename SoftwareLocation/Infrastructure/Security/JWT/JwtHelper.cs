@@ -23,7 +23,7 @@ namespace Infrastructure.Security.JWT
             _tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
             //appsettingdeki token options bölümünü al ve maple
         }
-        public AccessToken CreateToken(TEntity user)
+        public AccessToken CreateToken(TEntity user, int Id)
         {//kullanıcı için token üretiyoruz. User ve claime göre token oluşturur
 
             _accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOptions.AccessTokenExpiration);
@@ -36,8 +36,11 @@ namespace Infrastructure.Security.JWT
             return new AccessToken
             {
                 Token = token,
-                Expiration = _accessTokenExpiration
-            };
+                Expiration = _accessTokenExpiration,
+                userId = Id
+
+
+        };
 
         }
         public JwtSecurityToken CreateJwtSecurityToken(TokenOptions tokenOptions, TEntity user, SigningCredentials signingCredentials)

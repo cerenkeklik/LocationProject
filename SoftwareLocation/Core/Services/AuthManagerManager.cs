@@ -70,7 +70,7 @@ namespace Core.Services
 
         public AccessToken CreateAccessToken(Manager manager)
         {
-            var accessToken = _tokenHelper.CreateToken(manager);
+            var accessToken = _tokenHelper.CreateToken(manager,manager.ManagerID);
             return accessToken;
         }
     }
