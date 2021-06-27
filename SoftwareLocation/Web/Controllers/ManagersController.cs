@@ -14,40 +14,70 @@ namespace Web.Controllers
     public class ManagersController : ControllerBase
     {
         IManagerService _managerService;
+        IAuthorityService _authorityService;
 
-        public ManagersController(IManagerService managerService)
+        public ManagersController(IManagerService managerService,IAuthorityService authorityService)
         {
             _managerService = managerService;
+            _authorityService = authorityService;
+
         }
 
         [HttpGet("getall")]
-        public List<Manager> GetAll() {
-            var result = _managerService.GetAll();
-            return result;
+        public List<Manager> GetAll(string token) {
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _managerService.GetAll();
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getbyid")]
-        public Manager GetById(int id)
+        public Manager GetById(int id, string token)
         {
-            var result = _managerService.GetById(id);
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _managerService.GetById(id);
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
-        [HttpPost("add")]
-        public void Add(Manager manager) {
-            _managerService.Add(manager);
-        }
+        
 
         [HttpPost("update")]
-        public void Update(Manager manager)
+        public string Update(Manager manager, string token)
         {
-            _managerService.Update(manager);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _managerService.Update(manager);
+                return "Manager Updated Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpDelete("delete")]
-        public void Delete(Manager manager)
+        public string Delete(Manager manager, string token)
         {
-            _managerService.Delete(manager);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _managerService.Delete(manager);
+                return "Manager Deleted Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
     }
 }

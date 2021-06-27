@@ -15,59 +15,112 @@ namespace Web.Controllers
     public class EmployeesController : ControllerBase
     {
         IEmployeeService _employeeService;
+        IAuthorityService _authorityService;
 
-        public EmployeesController(IEmployeeService employeeService)
+        public EmployeesController(IEmployeeService employeeService , IAuthorityService authorityService)
         {
             _employeeService = employeeService;
+            _authorityService = authorityService;
         }
 
         [HttpGet("getall")]
-        public List<Employee> GetAll()
+        public List<Employee> GetAll(string token)
         {
-            var result = _employeeService.GetAll();
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _employeeService.GetAll();
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getbyid")]
-        public Employee GetById(int id)
+        public Employee GetById(int id,string token)
         {
-            var result = _employeeService.GetById(id);
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _employeeService.GetById(id);
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
-        [HttpPost("add")]
-        public void Add(Employee employee) {
-            _employeeService.Add(employee);
-        }
+       
 
         [HttpPost("update")]
-        public void Update(Employee employee) {
-            _employeeService.Update(employee);
+        public string Update(Employee employee, string token) {
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _employeeService.Add(employee);
+                return "Employee Updated Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpDelete("delete")]
-        public void Delete(Employee employee)
+        public string Delete(Employee employee, string token)
         {
-            _employeeService.Delete(employee);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _employeeService.Delete(employee);
+                return "Employee Deleted Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpGet("getdetails")]
-        public List<EmployeeDetailDto> GetDetails() {
-            var result = _employeeService.GetEmployeeDetails();
-            return result;
+        public List<EmployeeDetailDto> GetDetails(string token) {
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result= _employeeService.GetEmployeeDetails();
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getdetailsbyid")]
-        public EmployeeDetailDto GetDetailsById(int id)
+        public EmployeeDetailDto GetDetailsById(int id,string token)
         {
-            var result = _employeeService.GetEmployeeDetailsById(id);
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _employeeService.GetEmployeeDetailsById(id);
+                return result;
+
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getbymail")]
-        public Employee GetByMail(string mail)
+        public Employee GetByMail(string mail,string token)
         {
-            return _employeeService.GetByMail(mail);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _employeeService.GetByMail(mail);
+                return result;
+
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

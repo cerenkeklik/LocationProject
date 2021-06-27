@@ -16,47 +16,59 @@ namespace Web.Controllers
     public class AuthEmployeesController : ControllerBase
     {
         private IAuthService<Employee, EmployeeRegisterDto> _authService;
+        private IAuthorityService _authorityService;
 
-        public AuthEmployeesController(IAuthService<Employee, EmployeeRegisterDto> authService)
+        public AuthEmployeesController(IAuthService<Employee, EmployeeRegisterDto> authService,IAuthorityService authorityService)
         {
             _authService = authService;
+            _authorityService = authorityService;
         }
 
         [HttpPost("login")]
-        public AccessToken Login(LoginDto loginDto)
+        public int Login(LoginDto loginDto,string token)
         {
-            var userToLogin = _authService.Login(loginDto);
-            if (userToLogin == null)
+            if (_authorityService.GetByToken(token) != null)
             {
-                return null;
+                var userToLogin = _authService.Login(loginDto);
+                if (userToLogin == null)
+                {
+                    return -1;
+                }
+                else
+                {
+                    return userToLogin.EmployeeID;
+                }
+            }
+            else
+            {
+                return 401;
             }
 
-            var result = _authService.CreateAccessToken(userToLogin);
-            if (result !=null)
-            {
-                return result;
-            }
+            
 
-            return null;
+           
         }
 
         [HttpPost("register")]
-        public AccessToken Register(EmployeeRegisterDto registerDto)
+        public bool Register(EmployeeRegisterDto registerDto, string token)
         {
-            var userExists = _authService.UserExists(registerDto.Email);
-            if (!userExists)
+            if (_authorityService.GetByToken(token)!=null)
             {
-                return null;
-            }
 
-            var registerResult = _authService.Register(registerDto, registerDto.Password);
-            var result = _authService.CreateAccessToken(registerResult);
-            if (result != null)
-            {
-                return result;
-            }
 
-            return null;
+                var userExists = _authService.UserExists(registerDto.Email);
+                if (!userExists)
+                {
+                    return false;
+                }
+
+                var registerResult = _authService.Register(registerDto, registerDto.Password);
+                return true;
+
+            }
+            return false;
+        
+           
         }
     }
 }

@@ -23,6 +23,7 @@ namespace Infrastructure
         public DbSet<Inspection> Inspections { get; set; }
         public DbSet<Manager> Managers { get; set; }
         public DbSet<Excuse> Excuses { get; set; }
+        public DbSet<Authority> Authoritiess { get; set; }
 
     }
 }

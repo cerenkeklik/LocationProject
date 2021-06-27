@@ -15,56 +15,110 @@ namespace Web.Controllers
     public class ExcusesController : ControllerBase
     {
         IExcuseService _excuseService;
+        IAuthorityService _authorityService;
 
-        public ExcusesController(IExcuseService excuseService)
+        public ExcusesController(IExcuseService excuseService, IAuthorityService authorityService)
         {
             _excuseService = excuseService;
+            _authorityService = authorityService;
         }
 
         [HttpGet("getall")]
-        public List<Excuse> GetAll()
+        public List<Excuse> GetAll(string token)
         {
-            var result = _excuseService.GetAll();
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _excuseService.GetAll();
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getbyid")]
-        public Excuse GetById(int id)
+        public Excuse GetById(int id,string token)
         {
-            var result = _excuseService.GetById(id);
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _excuseService.GetById(id);
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpPost("add")]
-        public void Add(Excuse excuse)
+        public string Add(Excuse excuse,string token)
         {
-            _excuseService.Add(excuse);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _excuseService.Add(excuse);
+                return "Excuse Added Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpPost("update")]
-        public void Update(Excuse excuse)
+        public string Update(Excuse excuse,string token)
         {
-            _excuseService.Update(excuse);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _excuseService.Update(excuse);
+                return "Excuse Updated Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpDelete("delete")]
-        public void Delete(Excuse excuse)
+        public string Delete(Excuse excuse ,string token)
         {
-            _excuseService.Delete(excuse);
+            if (_authorityService.GetByToken(token) != null)
+            {
+                _excuseService.Delete(excuse);
+                return "Excuse Deleted Successfully";
+            }
+            else
+            {
+                return "Access Denied";
+            }
         }
 
         [HttpGet("getdetails")]
-        public List<ExcuseDetailDto> GetDetails()
+        public List<ExcuseDetailDto> GetDetails(string token)
         {
-            var result = _excuseService.GetExcuseDetails();
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _excuseService.GetExcuseDetails();
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         [HttpGet("getdetailsbyid")]
-        public ExcuseDetailDto GetDetailsById(int id)
+        public ExcuseDetailDto GetDetailsById(int id , string token)
         {
-            var result = _excuseService.GetExcuseDetailsById(id);
-            return result;
+            if (_authorityService.GetByToken(token) != null)
+            {
+                var result = _excuseService.GetExcuseDetailsById(id);
+                return result;
+            }
+            else
+            {
+                return null;
+            }
         }
 
     }
